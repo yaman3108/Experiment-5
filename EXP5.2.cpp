@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 
+//Name: Yaman Hasan Ansari PRN:23070123155
 // Nested if else program
 int main() {
     int  num1, num2, num3;
