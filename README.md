@@ -15,7 +15,7 @@ Conditional statements allow you to make decisions within your programs. Specifi
 There are four primary conditional statements in C language:
 
 ### if:
-The simplest form among conditionals where a certain condition is evaluated and if it evaluates true then certain flow control unit executes its commands. 
+The simplest form of conditional statements where a certain condition is evaluated and if it evaluates true then the command is excecuted. 
 
 ### if-else:
 This is an extension of the first form since we have the alternative block whose commands get executed provided that the original statement was false when selected. 
@@ -27,7 +27,7 @@ This enables the evaluation of several conditions sequentially until it finds on
 This facilitates picking one among many subprograms depending on a variable’s value. So rather than using multiple nested if-else statements we can use switch instead.
 
 ## Explanation: 
-This program covers the basic bitwise operators such as AND, OR, XOR, NOT, Left shift, Right shift. We give two inputs and demonstrate how these bitwise operations function and print thier result.
+This program covers the four basic conditional statements in C++, such as if, if-else, nested if-else, switch case.
 
 
 ## Code:
@@ -37,34 +37,25 @@ This program covers the basic bitwise operators such as AND, OR, XOR, NOT, Left 
 #include<iostream>
 using namespace std;
 
+//Name: Yaman Hasan Ansari PRN:23070123155
 int main() 
 {
-    // if statements 
-    int x = 20;
-    int y = 18;
+    // simple if statement 
+    int a = 20;
+    int b = 18;
     if (x > y)
     {
-        cout<< "x is greater than y "<<endl;
+        cout<< "a is greater than b "<<endl;
     }
     
-
-    // else statement
-    int time = 20;
-    if (time < 18) 
-    {
-        cout<<"Good Morning"<<endl;
-    }
-    else{
-        cout<<"Good Evening"<<endl;
-    }
 
     // simple if else 
 
     int  num;
-    cout<<"Enter positive number: ";
+    cout<<"Enter a positive number: ";
     cin>>num;
     if(num==0) {
-        cout<<num<<"You have entered zero"<<endl;
+        cout<<num<<"Invalid input, please enter a positive number"<<endl;
     }
     else if(num%2!=0){
         cout<<num<<" is odd"<<endl;
@@ -86,6 +77,7 @@ int main()
 #include<iostream>
 using namespace std;
 
+//Name: Yaman Hasan Ansari PRN:23070123155
 // Nested if else program
 int main() {
     int  num1, num2, num3;
@@ -122,7 +114,9 @@ int main() {
 ```
 #include<iostream>
 using namespace std;
- // Simple calculator using 'Switch case'
+
+//Name: Yaman Hasan Ansari PRN:23070123155
+// Simple calculator using 'Switch case'
  
  int main()
  {
@@ -132,7 +126,7 @@ using namespace std;
     cout<<"1 for addition"<<endl;
     cout<<"2 for subtraction"<<endl;
     cout<<"3 for multiplication"<<endl;
-    cout<<"4 for multiplication"<<endl;
+    cout<<"4 for division"<<endl;
     cout<<" Enter the operation choice number (1-4)"<<endl;
     cin>>choice;
 
@@ -160,9 +154,9 @@ using namespace std;
     return 0;
  }
 ```
-## Output:
+### Output:
 ![Screenshot 2024-08-05 113816](https://github.com/user-attachments/assets/e1bc9c26-4d3c-4efb-a287-086d0a219f53)
 
 
 ## Conclusion:
-This program helps us understand how bitwise operators can be used in C++. These bitwise operations can be used for performance optimization as they pack multiple values in a single variable making the program more memory efficient.
+This program helps us understand how conditional statements work in C++. These conditional statements can be used to make decisions in your program, specifically it only runs a block of code if a particular situation occurs.
