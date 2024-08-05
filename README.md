@@ -78,6 +78,8 @@ int main()
 
 }
 ```
+### Output:
+![Screenshot 2024-08-05 113519](https://github.com/user-attachments/assets/20202799-f746-4952-8e24-73e6072142de)
 
 ### Nested if-else:
 ```
@@ -113,6 +115,8 @@ int main() {
     
 }
 ```
+### Output:
+![Screenshot 2024-08-05 113658](https://github.com/user-attachments/assets/abde726c-3bfa-4c43-a81f-565b24bc05a6)
 
 ### Switch case:
 ```
@@ -157,7 +161,7 @@ using namespace std;
  }
 ```
 ## Output:
-
+![Screenshot 2024-08-05 113816](https://github.com/user-attachments/assets/e1bc9c26-4d3c-4efb-a287-086d0a219f53)
 
 
 ## Conclusion:
