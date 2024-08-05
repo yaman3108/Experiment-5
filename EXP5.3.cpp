@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
- // Simple calculator using 'Switch case'
+
+//Name: Yaman Hasan Ansari PRN:23070123155
+// Simple calculator using 'Switch case'
  
  int main()
  {
@@ -10,7 +12,7 @@ using namespace std;
     cout<<"1 for addition"<<endl;
     cout<<"2 for subtraction"<<endl;
     cout<<"3 for multiplication"<<endl;
-    cout<<"4 for multiplication"<<endl;
+    cout<<"4 for division"<<endl;
     cout<<" Enter the operation choice number (1-4)"<<endl;
     cin>>choice;
 
